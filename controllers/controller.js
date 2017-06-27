@@ -4,7 +4,7 @@ var cheerio = require('cheerio');
 var mongojs = require('mongojs');
 
 // MongoDB configuriation:
-var databaseUrl = "CheerioMongoScraper";
+var databaseUrl = "cheeriomongoscraper";
 var collections = ["articles"];
 
 // use mongojs to hook the database to the db variable
